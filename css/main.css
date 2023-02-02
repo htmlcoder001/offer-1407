@@ -836,12 +836,15 @@
 }
 
 /* Footer */
+footer {
+  max-width: 480px;
+  margin: 0 auto;
+}
 .footer-wrapper {
   grid-template-columns: 1fr;
   justify-content: center;
   text-align: center;
 }
-
 .footer-wrapper__address {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
@@ -852,7 +855,6 @@
   color: #FFFFFF;
   display: block;
 }
-
 .footer-wrapper__copyright {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
@@ -864,11 +866,9 @@
   display: block;
   margin-top: 4px;
 }
-
 .footer-wrapper__payment {
   margin: 16px auto;
 }
-
 .footer-wrapper__link {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
@@ -881,4 +881,5 @@
   text-decoration: none;
   margin: 2px auto;
 }
+
 /* Else */
