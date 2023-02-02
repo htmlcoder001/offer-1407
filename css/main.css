@@ -439,7 +439,8 @@
   border-radius: 41px;
 }
 .form-box__input:focus {
-  border-color: var(--theme-yellow)
+  border-color: var(--theme-yellow);
+  outline: none;
 }
 
 /* Features */
@@ -561,6 +562,9 @@
   margin-top: 12px;
   margin-bottom: 24px;
   background: #434343;
+}
+.cta-wrapper__button:hover {
+  background-color: #000000;
 }
 .cta-wrapper__button:after {
   background: #000000;
