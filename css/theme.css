@@ -11,9 +11,16 @@
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #cccccc;
   position: relative;
   overflow-x: hidden;
+}
+
+main {
+  background-color: #FFFFFF;
+  max-width: 480px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .theme-wrapper {
